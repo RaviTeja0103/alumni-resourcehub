@@ -1,0 +1,110 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.top{
+  color: white;
+  text-align: left;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.slide-right {
+   width: 100%;
+   overflow: hidden;
+   margin-left: 40px;
+   margin-right: 10px;
+}
+
+.slide-right h1 {
+   animation: 2s slide-right;
+   animation-delay: 2s;
+}
+
+
+
+@keyframes slide-right {
+    from {
+       margin-left: -500px;
+    }
+
+    to {
+       margin-left: 0%;
+    }
+ }
+
+.first-txt{
+  color: white;
+}
+.second-txt{
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.secondslide{
+  text-align: center;
+}
+.topsection2{
+  width: 100%;
+  color: black;
+  font-weight: bolder;
+}
+.picture1{
+  width: 75%;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 250px;
+}
+.topsection3{
+  background-color: black;
+  padding-top: 250px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 108px;
+  right: 56px;
+}
+.second brush{
+
+  position: absolute;
+  bottom: 108px;
+  right: 56px;
+}
+.example{
+  width: 50%;
+  height: 300px;
+  background-color: white;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: relative;
+
+@keyframes example {
+  from {
+    background-color: white;
+  }
+
+  to {
+    background-color: white;
+  }
+.text1{
+  color: black;
+}
+
+
+
+
+/* complete second slide */
